@@ -1,1 +1,1 @@
-from sd import sdiv
+from sd import sd
