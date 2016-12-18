@@ -1,4 +1,6 @@
+import numpy as np
 def standard_deviation(x):
+    x = [i for i in x if ~np.isnan(i)]
     n = len(x)
     mean = sum(x) / n
     ssq = sum((x_i-mean)**2 for x_i in x)
