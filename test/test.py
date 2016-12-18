@@ -1,4 +1,4 @@
-from sd import sd
+import sd
 import pytest as pt
 import numpy as np
 
