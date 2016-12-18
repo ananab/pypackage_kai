@@ -2,5 +2,5 @@
 README.txt
 setup.py
 sd/__init__.py
-sd/sd.py
+sd/sdse.py
 test/test.py

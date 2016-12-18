@@ -1,3 +1,4 @@
+import numpy as np
 def standard_deviation(x):
     x = [i for i in x if ~np.isnan(i)]
     n = len(x)
