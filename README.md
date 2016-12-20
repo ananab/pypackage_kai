@@ -10,6 +10,7 @@ The structure of this repository is summarized in the table below:
 |[sdiv/sd](https://github.ubc.ca/hknaicha/pypackage_kai/tree/master/sdiv/sd)|[__init__.py](https://github.ubc.ca/hknaicha/pypackage_kai/blob/master/sdiv/sd/__init__.py)|python script for importing the package|NA|
 |[sdiv/sd](https://github.ubc.ca/hknaicha/pypackage_kai/tree/master/sdiv/sd)|[sd.py](https://github.ubc.ca/hknaicha/pypackage_kai/blob/master/sdiv/sd/sd.py)|python script including the sd and se functions|NA|
 |[sdiv/dist](https://github.ubc.ca/hknaicha/pypackage_kai/tree/master/sdiv/dist)|[sdiv-0.1dev.tar.gz](https://github.ubc.ca/hknaicha/pypackage_kai/blob/master/sdiv/dist/sdiv-0.1dev.tar.gz)|compressed python package|`pip install sdiv/dist/sdiv-0.1dev.tar.gz`|
+|[test](https://github.com/ananab/pypackage_kai/tree/master/test)|[test.py](https://github.com/ananab/pypackage_kai/blob/master/test/test.py)|test file for package|`pytest test/test.py`|
 
 ### installation:
 
