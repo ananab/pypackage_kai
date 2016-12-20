@@ -6,15 +6,16 @@ The structure of this repository is summarized in the table below:
 
 |directory|file|nature|usage|
 |---------|----|------|-----|
-|[sdiv](https://github.ubc.ca/hknaicha/pypackage_kai/tree/master/sdiv)|[setup.py](https://github.ubc.ca/hknaicha/pypackage_kai/blob/master/sdiv/setup.py)|setup file for creating [sdiv-0.1dev.tar.gz](https://github.ubc.ca/hknaicha/pypackage_kai/blob/master/sdiv/dist/sdiv-0.1dev.tar.gz)|`python setup.py sdist`|
-|[sdiv/sd](https://github.ubc.ca/hknaicha/pypackage_kai/tree/master/sdiv/sd)|[__init__.py](https://github.ubc.ca/hknaicha/pypackage_kai/blob/master/sdiv/sd/__init__.py)|python script for importing the package|NA|
-|[sdiv/sd](https://github.ubc.ca/hknaicha/pypackage_kai/tree/master/sdiv/sd)|[sd.py](https://github.ubc.ca/hknaicha/pypackage_kai/blob/master/sdiv/sd/sd.py)|python script including the sd and se functions|NA|
-|[sdiv/dist](https://github.ubc.ca/hknaicha/pypackage_kai/tree/master/sdiv/dist)|[sdiv-0.1dev.tar.gz](https://github.ubc.ca/hknaicha/pypackage_kai/blob/master/sdiv/dist/sdiv-0.1dev.tar.gz)|compressed python package|`pip install sdiv/dist/sdiv-0.1dev.tar.gz`|
+|[pypackage_kai](https://github.com/ananab/pypackage_kai)|[setup.py](https://github.com/ananab/pypackage_kai/blob/master/setup.py)|setup file for creating [sdiv-0.1dev.tar.gz](https://github.ubc.ca/hknaicha/pypackage_kai/blob/master/sdiv/dist/sdiv-0.1dev.tar.gz)|`python setup.py sdist`|
+|[pypackage_kai](https://github.com/ananab/pypackage_kai/tree/master/sd)|[__init__.py](https://github.com/ananab/pypackage_kai/blob/master/sd/__init__.py)|python script for importing the package|NA|
+|[sd](https://github.com/ananab/pypackage_kai/tree/master/sd)|[sdse.py](https://github.com/ananab/pypackage_kai/blob/master/sd/sdse.py)|python script including the sd and se functions|NA|
+|[dist](https://github.com/ananab/pypackage_kai/tree/master/dist)|[sdiv-0.1dev.tar.gz](https://github.com/ananab/pypackage_kai/blob/master/dist/sdiv-0.1dev.tar.gz)|compressed python package|`pip install dist/sdiv-0.1dev.tar.gz`|
 |[test](https://github.com/ananab/pypackage_kai/tree/master/test)|[test.py](https://github.com/ananab/pypackage_kai/blob/master/test/test.py)|test file for package|`pytest test/test.py`|
+|[pypackage_kai](https://github.com/ananab/pypackage_kai)|[.travis.yml](https://github.com/ananab/pypackage_kai/blob/master/.travis.yml)|.yml file for travis ci|NA|
 
 ### installation:
 
-Use `cd pypackage_kai` to go into the root directory of the cloned, use `pip install sdiv/dist/sdiv-0.1dev.tar.gz` to install the package.
+Use `cd pypackage_kai` to go into the root directory of the cloned, use `pip install dist/sdiv-0.1dev.tar.gz` to install the package.
 
 ### usage:
 
@@ -35,7 +36,7 @@ Uninstall with `pip uninstall sdiv`
 # New function suggestion
 Standard error function has been added to the code. 
 
-`sdiv/sd/sd.py` has been amended with the following function
+`sd/sdse.py` has been amended with the following function
 
 ```
 def standard_error(x):
